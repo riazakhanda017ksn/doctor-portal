@@ -1,0 +1,16 @@
+ul.navbar-nav.ml-auto-menu {
+    margin-left: auto;
+}
+ul.navbar-nav.ml-auto-menu li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #dbdbdb!important;
+    margin-right: 55px;
+}
+button.btn.btn-info {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px;
+    margin: 6px 0;
+}
