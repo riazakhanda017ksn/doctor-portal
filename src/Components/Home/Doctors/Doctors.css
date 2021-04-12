@@ -1,0 +1,18 @@
+.doctor-image img {
+    height: 110px;
+    margin-top: 44px;
+}
+.doctor-contact {
+    margin-top: 6px;
+}
+.doctor-contact p span {
+    color: #62b8df;
+    font-size: 18px;
+}
+.doctor-contact p {
+    font-size: 13px;
+    position: relative;
+    bottom: 16px;
+    font-weight: 600;
+    color: #767676;
+}

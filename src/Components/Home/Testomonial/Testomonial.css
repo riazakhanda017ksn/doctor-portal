@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    margin: 0 13px;
+    
+}
+.cards-container.mt-5 {
+    margin: 0 24px;
+}
+.cards-container.mt-5 {
+    margin: 0 10px;
+    box-shadow: 0px 3px 24px grey;
+    padding: 36px 29px;
+    border-radius: 4px;
+}
+.card-text p {
+    color: #767676;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+.doctor-images img {
+    height: 60px;
+    margin-right: 27px;
+}
+.doctor-information h6 {
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #278790;
+}
+.doctor-information span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #767676;
+}

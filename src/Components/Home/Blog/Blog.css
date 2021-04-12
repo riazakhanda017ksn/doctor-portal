@@ -1,0 +1,11 @@
+.extra-customize {
+    padding: 50px 0;
+}
+.text-center.extra-customize h6 {
+    color: #58cac4;
+    font-weight: 700;
+}
+.text-center.extra-customize h1 {
+    font-size: 37px;
+    padding: 13px 0;
+}

@@ -1,0 +1,42 @@
+.margin-top {
+    padding: 36px 0;
+}
+.card-container-header-and-description {
+    box-shadow: 2px 2px 11px #80808094;
+    margin: 11px 0;
+    padding: 34px 0;
+    border-radius: 7px;
+}
+.card-container-header-and-description h5 {
+    padding: 6px 0;
+    font-weight: 500;
+    color: #61f1f7;
+}
+.card-container-header-and-description h6 {
+    color: #767676;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 6px 0
+}
+.card-container-header-and-description p {
+    font-size: 11px;
+    color: #767676;
+    font-weight: 500;
+    padding: 2px 0;
+}
+.card-container-header-and-description button {
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #24abd4,#6274dfb3);
+    color: #FFF;
+    border-radius: 7px;
+    transition: .3s;
+}
+.card-container-header-and-description button:hover{
+    background: linear-gradient(45deg, #6274dfb3,#24abd4);
+    box-shadow: 2px 2px 11px #4e96e994;
+}

@@ -1,0 +1,41 @@
+.feature-services-images img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px grey;
+}
+.feature-services-rules{
+    padding: 50px 0;
+}
+.feature-services-images {
+    padding: 100px 37px;
+}
+
+.feature-services-rules {
+    margin: 0 33px;
+}
+.feature-services-rules h1 {
+    margin-bottom: 30px;
+}
+
+.feature-services-rules p {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+.feature-services-rules button {
+    background: linear-gradient(45deg, #0fafec, #136b12b5);
+    border: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    transition: .3s;
+}
+.feature-services-rules button:hover {
+    background: linear-gradient(45deg, #166280, #324ce2b5);
+    letter-spacing: .5px;
+    
+}

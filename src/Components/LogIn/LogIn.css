@@ -1,0 +1,50 @@
+.doctor-log-in-image-part img{max-width: 100%;}
+
+.form-section.align-self-center input {
+    border: none;
+    border-bottom: 3px solid #DDD;
+    width: 75%;
+    padding: 6px 0;
+    margin: 17px 0;
+}
+.form-section.align-self-center input {
+    border: none;
+    border-bottom: 3px solid rgb(88, 177, 204);
+    width: 75%;
+    padding: 6px 0;
+    margin: 17px 0;
+    outline: none;
+}
+input.border-none {
+    border: none!important;
+    background: linear-gradient(45deg, #2ac8ff, #0037ff);
+    border-radius: 6px;
+    color: #FFF;
+    font-weight: 500;
+}
+.sing-in-with-google.mt-2 p span {
+    display: inline-block;
+    margin-right: 16px;
+    color: #47a25e;
+    padding: 6px 7px;
+    height: 36px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 17px;
+}
+.sing-in-with-google.mt-2 p {
+    border: 1px solid #58c8ca;
+    width: 75%;
+    border-radius: 7px;
+    font-weight: 400;
+    color: #137334a8;
+    transition: .4s;
+    cursor: pointer;
+}
+.form-section.align-self-center {
+    margin-top: 268px;
+    padding: 24px 27px;
+    box-shadow: -3px 0px 5px #cecece45;
+    border-radius: 11px;
+}

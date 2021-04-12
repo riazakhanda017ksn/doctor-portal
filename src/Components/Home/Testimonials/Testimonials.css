@@ -1,0 +1,32 @@
+.comma-section {
+    text-align: end;
+    margin-top: 20px;
+}
+.comma-section span {
+    font-size: 100px;
+    opacity: 0.2;
+    color: #00bbff;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-device-width: 991px) {
+    .container.need-space {
+        margin-top: 425px;
+    }
+}
+.testimonials {
+    margin-top: 25px;
+}
+.testimonials h6 {
+    color: #21c4ff;
+    padding: 6px 0;
+    font-weight: 600;
+}
+.testimonials h1 {
+    font-size: 42px;
+    padding: 16px 0;
+}
