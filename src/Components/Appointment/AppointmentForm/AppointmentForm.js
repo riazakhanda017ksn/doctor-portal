@@ -18,12 +18,12 @@ const customStyles = {
 Modal.setAppElement('#root')
 
 const AppointmentForm = ({ modalIsOpen, closeModal, AppointmentOn,date }) => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         data.service=AppointmentOn
-        data.date=date.toDateString()
-        data.created=new Date()
-        fetch('http://localhost:5000/addAppointment',{
+        data.date = date;
+        data.created = new Date();
+        fetch('https://obscure-castle-99827.herokuapp.com/addAppointment',{
             method:"POST",
             headers:{'content-type' :'application/json'},
             body:JSON.stringify(data)
@@ -80,7 +80,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, AppointmentOn,date }) => {
                         <input type="date" name='date' className='form-control mt-3' {...register("date", { required: true })} />
                         {errors.date && <span className="text-danger">This field is required</span>}
                           </div>
-
+                         <textarea name="problem" id="" cols="6" rows="6"   className='form-control mt-3' {...register("problem", { required: true })}></textarea>
                         <div className="button-div mt-3">
                         <button className=' btn btn-outline-info'>Send</button>
                         </div>

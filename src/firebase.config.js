@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCuPayvGgyJwLQ7zRZgCYDK8VVbODmSCBU",
-    authDomain: "assingment-elevent.firebaseapp.com",
-    projectId: "assingment-elevent",
-    storageBucket: "assingment-elevent.appspot.com",
-    messagingSenderId: "247837610639",
-    appId: "1:247837610639:web:dac7564d528941fdbfd6fa"
-  };
+  apiKey: "AIzaSyDr2VFNS8CxwEtnivfsShf83yTyJpL6YCo",
+  authDomain: "new-project-223bb.firebaseapp.com",
+  projectId: "new-project-223bb",
+  storageBucket: "new-project-223bb.appspot.com",
+  messagingSenderId: "1055605227897",
+  appId: "1:1055605227897:web:3d8216ffb74cb9c665efa8"
+};
 
-  export default firebaseConfig
+export default firebaseConfig;
